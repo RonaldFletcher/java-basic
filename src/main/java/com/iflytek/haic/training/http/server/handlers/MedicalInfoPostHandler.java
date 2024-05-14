@@ -70,8 +70,9 @@ public class MedicalInfoPostHandler implements RequestHandler {
             // 更新 Content-Length
             headers.put("Content-Length", String.valueOf(responseBody.getBytes(StandardCharsets.UTF_8).length));
         } else {
-            simpleHttpResponse.setBody("not found  ");
-            headers.put("Content-Length",  "0");
+            String errorMessage = "Medical record not found. Please check the provided name, age, and sex.";
+            simpleHttpResponse.setBody(errorMessage);
+            headers.put("Content-Length", String.valueOf(errorMessage.getBytes(StandardCharsets.UTF_8).length));
         }
         return simpleHttpResponse;
     }
