@@ -1,0 +1,41 @@
+{
+  "recordTypeCode": "1",
+  "isFinalState": "1",
+  "stateCode": "340171",
+  "basicMedSign": "1",
+  "drType": 1,
+  "patientId": "141424654131658940",
+  "patientIndex": "141424654131658940",
+  "medicalId": "142934503713669266",
+  "eventId": "141424654131658891",
+  "doctorId": "1599381498003456",
+  "orgId": "124079370724704360",
+  "clinicalTime": "2024-02-19 10:09:57",
+  "mainSuit": "发现血糖升高1年余",
+  "illnessHistory": "患者于1年前体检时发现空腹血糖升高，当时无明显口干、多饮、多尿及明显体重减轻症状，饮食运动调整后血糖控制未达标，予以二甲双胍、格列吡嗪等口服药物治疗,血糖控制可，无头晕、视物模糊、四肢麻木等症状",
+  "previousHistory": "既往糖尿病病史20年，否认高血压、冠心病病史，否认外伤手术史，否认传染病史。",
+  "checkup": "体温36.3°C,脉搏78次/分,呼吸22次/分,收缩压150mmHg/舒张压90mmHg,身高170cm,神清，精神可，头颈部未见异常，甲状腺未及肿大，双肺呼吸音清，未闻及啰音，心率78次/分，律齐。腹软，未及压痛、反跳痛。双下肢未及水肿，双足背动脉搏动正常。",
+  "auxExam": "无",
+  "allergyHistory": "否认食物、否认药物过敏史",
+  "personalHistory": "否认外地生活史。否认疫区接触史，否认烟酒史。",
+  "familyHistory": "否认家族性疾病病及遗传病史",
+  "reexamine": "0",
+  "sex": "男",
+  "age": "15岁",
+  "name": "张三",
+  "deptName": "门诊外科",
+  "tongue": "",
+  "pulse": "",
+  "diagList": [
+    {
+      "diagnosticCode": "E14.900",
+      "diagnosticName": "糖尿病",
+      "isSuspected": "0",
+      "morbidityDate": "2024-03-27 06:13:15",
+      "diagnosticNote": null,
+      "diagnosticMainSign": "1",
+      "diagTypeCode": "",
+      "diagSort": 1
+    }
+  ]
+}
